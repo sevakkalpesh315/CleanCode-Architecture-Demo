@@ -13,6 +13,21 @@ You are free to download it, modify it, fork it and do anything you want with it
 # Domain Layer
 ![image](https://imgur.com/ldAnBCu.png)
 
+# Data Layer
+![image](https://imgur.com/lhsb34v.png)
+
+# Entity Mapping Relationship
+![image](https://imgur.com/UD39JZn.png)
+
+# Presentation Layer
+![image](https://imgur.com/XNpdX1p.png)
+
+# End Result (Complate Flow)
+![image](https://imgur.com/sbqXlrB.png)
+
+# Packing
+![image](https://imgur.com/T5Ocr7T.png)
+
 # What is Clean Architecture?
 In Clean, code is separated into layers in an onion shape. The outer layers of the onion depend on the inner layers but the opposite is not true. It can have an arbitrary amount of layers but for most applications there are 3 layers:
 * Outer: Implementation layer
