@@ -12,7 +12,7 @@ You are free to download it, modify it, fork it and do anything you want with it
 Images from 
 http://notes.lucida.me/2016/10/12/clean-architecture-on-android-notes/
 
-What is Clean Architecture?
+# What is Clean Architecture?
 In Clean, code is separated into layers in an onion shape. The outer layers of the onion depend on the inner layers but the opposite is not true. It can have an arbitrary amount of layers but for most applications there are 3 layers:
 * Outer: Implementation layer
 * Middle: Presenter/Controller layer
@@ -24,12 +24,12 @@ How this app is structured
 I've found that the most practical way to build Android apps with Clean is with the following approach. This is how this sample app is structured:
 Outer layers
 * The presentation layer has a standard MVP structure. All Activites and Fragments, everything view related and user-facing is put into the layer.
-* Database specific code is inside the storage layer.
-* Network specific code is inside the network layer.
+* Database specific code is inside the domain layer.
+* Network specific code is inside the data layer.
 * Any other framework specific code would be put into its own layer, for example in Android a bluetooth layer is something I often have.
 Inner/Core layer
 * Business logic is put into the domain layer.
 Although I am omitting a middle layer, that is not actually true. Because my presentation layer actually includes Presenters, this provides a good separation of code between presentation and domain layers. Communication between layers is done using interfaces as explained in the blog linked above. In short, the inner layer only uses an interface while its the job of the outer layer to implement it. This way the inner layer only cares about calling methods on an interface, without actually knowing what is going on under the hood.
 You can read more about it in my detailed guide.
 
-Explain the process
+# What steps to follow to create clean code?
