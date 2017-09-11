@@ -7,6 +7,9 @@ A sample app that showcases my Clean architecture approach to build Android appl
 * Clicking on a summarized cost should display details of town detail
 That's it. For now.
 You are free to download it, modify it, fork it and do anything you want with it.
+
+# What steps to follow to create clean code?
+
 # Overview
 ![image](https://imgur.com/3ocpoqW.png)
 
@@ -48,6 +51,3 @@ Inner/Core layer
 Although I am omitting a middle layer, that is not actually true. Because my presentation layer actually includes Presenters, this provides a good separation of code between presentation and domain layers. Communication between layers is done using interfaces as explained in the blog linked above. In short, the inner layer only uses an interface while its the job of the outer layer to implement it. This way the inner layer only cares about calling methods on an interface, without actually knowing what is going on under the hood.
 You can read more about it in my detailed guide.
 
-# What steps to follow to create clean code?
-Images from 
-http://notes.lucida.me/2016/10/12/clean-architecture-on-android-notes/
