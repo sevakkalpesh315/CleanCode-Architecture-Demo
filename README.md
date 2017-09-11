@@ -8,6 +8,7 @@ A sample app that showcases my Clean architecture approach to build Android appl
 That's it. For now.
 You are free to download it, modify it, fork it and do anything you want with it.
 
+![image](https://imgur.com/3ocpoqW.png)
 
 Images from 
 http://notes.lucida.me/2016/10/12/clean-architecture-on-android-notes/
