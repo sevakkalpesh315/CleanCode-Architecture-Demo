@@ -7,11 +7,11 @@ A sample app that showcases my Clean architecture approach to build Android appl
 * Clicking on a summarized cost should display details of town detail
 That's it. For now.
 You are free to download it, modify it, fork it and do anything you want with it.
-
+# Overview
 ![image](https://imgur.com/3ocpoqW.png)
 
-Images from 
-http://notes.lucida.me/2016/10/12/clean-architecture-on-android-notes/
+# Domain Layer
+![image](https://imgur.com/ldAnBCu.png)
 
 # What is Clean Architecture?
 In Clean, code is separated into layers in an onion shape. The outer layers of the onion depend on the inner layers but the opposite is not true. It can have an arbitrary amount of layers but for most applications there are 3 layers:
@@ -34,3 +34,5 @@ Although I am omitting a middle layer, that is not actually true. Because my pre
 You can read more about it in my detailed guide.
 
 # What steps to follow to create clean code?
+Images from 
+http://notes.lucida.me/2016/10/12/clean-architecture-on-android-notes/
